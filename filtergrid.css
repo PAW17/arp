@@ -1,0 +1,77 @@
+/*====================================================
+	- HTML Table Filter Generator v1.7 
+	elements and classes
+	- edit classes below to change filter grid style
+=====================================================*/
+
+.titleTable{ /* filter grid row appearance for title */
+	border:0px; 
+}
+
+.titleCell{ /* filter grid row appearance for title */
+	border:0px;
+}
+
+.fltrow{ /* filter grid row appearance */
+	height:20px;
+	background-color:#f4f4f4;
+}
+.btnflt{ /* button appearance */
+	font-size:11px;
+	margin:0 2px 0 2px; padding:0 1px 0 1px;
+	text-decoration:none; color: #fff;
+	background-color:#666;
+	vertical-align:middle;
+}
+.flt{ /* filter (input) appearance */
+	background-color:#fff; font-size:10px;
+	border-left:1px solid #999; border-right:1px solid #ccc;
+	border-top:1px solid #ccc; border-bottom:1px solid #999;
+	margin:0; width:100%; vertical-align:middle;text-align:center;
+}
+select.flt{ /* select filter */
+	background-color:#fff; border:1px solid #ccc; 
+	margin:0 1px 1px 0; width:100%; font-size:9px; vertical-align:middle;text-align:left;
+}
+.flt_s{ /* small filter (input) appearance */
+	background-color:#fff; font-size:10px;
+	border-left:1px solid #999; border-right:1px solid #ccc;
+	border-top:1px solid #ccc; border-bottom:1px solid #999;
+	margin:0; width:80%; vertical-align:middle;
+}
+.inf{ /* div containing left, middle and right divs */
+	clear:both; width:20; height:25px; 
+	background:#0; font-size:11px; 
+	margin:0; padding:1px 3px 1px 3px; 
+	border:0px solid #ccc;
+}
+.ldiv{ /* left div */
+	float:left; width:30%; position:inherit; 
+}
+.mdiv{ /* middle div */
+	float:left; width:30%; position:inherit; text-align:center;
+	padding:1px 0;
+}
+.rdiv{ /* right div */
+	float:right; width:30%; position:inherit; text-align:right; 
+}
+.loader{ /* loader appearance */
+	position:absolute; padding: 15px 0 15px 0;
+	margin-top:40px; width:200px; left:40%; 
+	z-index:1000; font-size:14px; font-weight:bold;
+	border:1px solid #666; background:#f4f4f4; 
+	text-align:center; vertical-align:middle;
+}
+select.pgSlc{ height:20px; vertical-align:middle; }/*paging drop-down list*/
+input.pgInp{ /*paging buttons (Next/Previous)*/
+	font-size:10px; font-weight:bold; vertical-align:middle; 
+	padding:1px 1px 2px 1px; background-color:#FFFFFF; 
+	border:0px outset #666; margin:1px;
+}
+span.nbpg{ padding:0 5px 0 0; }/*paging nb pages*/
+div.inf a{ color:#CC0000; }/*link appearence in .inf div*/
+div.inf a:hover{ text-decoration:none; }/*link appearence in .inf div*/
+.tot{ font-weight:bold; }/*rows counter*/
+.even{ background-color:#fff; }/*row bg alternating color*/
+.odd{ background-color:#f4f4f4; }/*row bg alternating color*/
+select.rspg{ width:50px; margin:1px 5px 0 5px; vertical-align:middle; }/*results per page select*/
